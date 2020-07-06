@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+}
+body { 
+background-color: pink;
+}
+.container{
+max-width:1000px ;
+background-color: #E4F9F5;
+margin: 0,auto;
+
+}
+.img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+padding: 10px;
+float: left;
+}
+.bio{
+padding: 30px;
+float: left;
+}
+.contact{
+float: right;
+padding: 30px;
+}
+.contact a{
+color: teal;
+font-weight:bold;
+text-decoration: none;
+}
+.contact a:hover{
+text-decoration: underline;
+color: tomato;
+}
+.div-clear{
+clear: both;
+}
+hr{
+border: solid black 3px;
+border-bottom: none;
+width: 100%;
+margin: 10px auto;
+}
+h1,h2,h3,h4,h5,h6{
+color: #11999e;
+
+}
+.left{
+width: 30%;
+float: left;
+
+}
+.righr{
+width:70% ;
+float: left;
+
+}
+.common-hr{
+border: solid black 1px;
+border-bottom: none;
+width: 100%;
+margin: 0,auto;
+}
+.right-b{
+
+width: 35%;
+float: left;
+}
+.right-m{
+width: 35%;
+float: right;
+
+}
+.right-m a{
+color: teal;
+text-decoration: none;
+}
+.right-m a:hover{
+text-decoration: underline;
+color: tomato;
+
+}
+.ftr{
+background: black;
+padding: 20px;
+text-align: center;
+}
+.ftr a{
+text-decoration: none;
+padding: 10px;
+color: white;
+}
+.ftr p{
+color: white;
+margin-top: 10px;
+
+}
+
+
